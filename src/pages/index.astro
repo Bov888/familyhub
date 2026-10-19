@@ -24,7 +24,7 @@
     <div id="app">
     <header class="top">
       <div class="top-row">
-        <h1>Сімейний хуб</h1>
+        <h1>Сімейний хаб</h1>
         <div class="tools">
           <p id="today"></p>
           <p id="net" class="net" hidden>Офлайн</p>
@@ -736,7 +736,7 @@
 
         /* Лічильник активних задач у заголовку вкладки */
         const n = tasks.filter((t) => t.status !== "done").length;
-        document.title = (n ? `(${n}) ` : "") + "Сімейний хуб";
+        document.title = (n ? `(${n}) ` : "") + "Сімейний хаб";
 
         /* Пропускаємо перерисовку, якщо нічого не змінилось —
            зберігаємо позицію скролу між фоновими оновленнями */
